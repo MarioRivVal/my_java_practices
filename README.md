@@ -9,7 +9,8 @@ lenguaje.
 ## 📝 Temas de Aprendizaje
 
 Iré actualizando esta lista de temas a medida que avance en mi aprendizaje de
-Java. Cada tema tendrá su propia carpeta con ejercicios, ejemplos y notas.
+Java. Cada tema tendrá su propia carpeta con ejercicios, ejemplos, notas y
+preguntas tipos test.
 
 1. [Declaración de Variables y Tipos de Datos](variables_tipo_datos)
    - 📂 Ejercicios básicos de declaración y asignación de variables
