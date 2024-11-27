@@ -11,7 +11,7 @@ Iré actualizando esta lista de temas a medida que avance en mi aprendizaje de
 Java. Cada tema tendrá su propia carpeta con ejercicios, ejemplos, notas y
 preguntas tipos test.
 
-1. [Declaración de Variables y Tipos de Datos](seccion_1_variables/src)
+1. [Declaración de Variables y Tipos de Datos](seccion_1_datos_variables/src/)
 2. [Manejo de Cadenas y algunos de sus metodos (Strings methods)](seccion_2_manejo_cadenas/src/)
 3. [Entrada de datos por consola](seccion_3_datos_consola/src/)
 
