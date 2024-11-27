@@ -30,8 +30,7 @@ ejercicios que permita revisar conceptos y reforzar el aprendizaje.
    git clone https://github.com/MarioRivVal/my_java_practices.git
    ```
 2. **Explora los temas**: Cada carpeta corresponde a un tema específico y
-   contiene ejercicios, ejemplos y notas explicativas. Puedes revisar cada
-   archivo para entender los conceptos prácticos. !
+   contiene ejercicios, y preguntas a modo de test.!
 
 ## 📈 Progreso
 

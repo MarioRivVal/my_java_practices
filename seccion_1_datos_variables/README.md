@@ -85,9 +85,9 @@
 
 ---
 
-## 🧾Test de Java Básico: Variables, `var`, `final`, y Concatenación de Cadenas
-
 ---
+
+## 🧾Test de Java Sección 1
 
 ### 1. ¿Qué palabra clave permite declarar una constante en Java?
 
