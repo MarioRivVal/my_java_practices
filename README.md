@@ -11,9 +11,10 @@ Iré actualizando esta lista de temas a medida que avance en mi aprendizaje de
 Java. Cada tema tendrá su propia carpeta con ejercicios, ejemplos, notas y
 preguntas tipos test.
 
-1. [Declaración de Variables y Tipos de Datos](seccion_1_datos_variables/src/)
-2. [Manejo de Cadenas y algunos de sus metodos (Strings methods)](seccion_2_manejo_cadenas/src/)
-3. [Entrada de datos por consola](seccion_3_datos_consola/src/)
+1. [Declaración de Variables y Tipos de Datos](/seccion_1_datos_variables/src/)
+2. [Manejo de Cadenas y algunos de sus metodos (Strings methods)](/seccion_2_manejo_cadenas/src/)
+3. [Entrada de datos por consola (Scanner())](/seccion_3_datos_consola/src/)
+4. [Operadores (Aritméticos, Comparación, Lógicos, ect) ](/seccion_4_operadores/src/)
 
 _(Más temas serán agregados a medida que avance)_
 
@@ -37,13 +38,14 @@ ejercicios que permita revisar conceptos y reforzar el aprendizaje.
 - ✅ Declaración de Variables y Tipos de Datos
 - ✅ Manejo de Cadenas y algunos de sus metodos (Strings methods)
 - ✅ Entrada de datos por consola
-- ⬜ Control de Flujo
-- ⬜ Estructuras de Datos
-- ⬜ Programación Orientada a Objetos
-- ⬜ Excepciones y Manejo de Errores
-- ⬜ Bibliotecas y Paquetes Comunes
-- ⬜ Archivos y Streams
-- ⬜ Hilos y Concurrencia
+- ✅ Operadores (Aritméticos, Comparación, Lógicos, ect)
+- ⬜ Sentencias de Decisión (if, if-else, switch)
+- ⬜ Ciclos (for, while, do while, ect)
+- ⬜ Arreglos, Matrices
+- ⬜ Funciones
+- ⬜ Clases y Objetos (POO)
+- ⬜ Manejo de archivos
+- ⬜ Conexión a base de datos.
 
 (Esta lista crecerá a medida que avance en el curso)
 
