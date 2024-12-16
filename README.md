@@ -15,6 +15,7 @@ preguntas tipos test.
 2. [Manejo de Cadenas y algunos de sus metodos (Strings methods)](/seccion_2_manejo_cadenas/src/)
 3. [Entrada de datos por consola (Scanner())](/seccion_3_datos_consola/src/)
 4. [Operadores (Aritméticos, Comparación, Lógicos, ect) ](/seccion_4_operadores/src/)
+5. [Sentencias de decisiones (if-else, switch, operador ternario)) y diagramas de flujo ](/seccion_5_sentencias_decision/src/)
 
 _(Más temas serán agregados a medida que avance)_
 
@@ -39,7 +40,8 @@ ejercicios que permita revisar conceptos y reforzar el aprendizaje.
 - ✅ Manejo de Cadenas y algunos de sus metodos (Strings methods)
 - ✅ Entrada de datos por consola
 - ✅ Operadores (Aritméticos, Comparación, Lógicos, ect)
-- ⬜ Sentencias de Decisión (if, if-else, switch)
+- ✅ Sentencias de Decisión (if, if-else, switch, yield, operador ternario),
+  diagrama de flujo
 - ⬜ Ciclos (for, while, do while, ect)
 - ⬜ Arreglos, Matrices
 - ⬜ Funciones
