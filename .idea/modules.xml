@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/practicas_estudiosDAM.iml" filepath="$PROJECT_DIR$/.idea/practicas_estudiosDAM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seccion_1_datos_variables/seccion_1_datos_variables.iml" filepath="$PROJECT_DIR$/seccion_1_datos_variables/seccion_1_datos_variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seccion_2_manejo_cadenas/seccion_2_manejo_cadenas.iml" filepath="$PROJECT_DIR$/seccion_2_manejo_cadenas/seccion_2_manejo_cadenas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seccion_3_datos_consola/seccion_3_datos_consola.iml" filepath="$PROJECT_DIR$/seccion_3_datos_consola/seccion_3_datos_consola.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seccion_4_operadores/seccion_4_operadores.iml" filepath="$PROJECT_DIR$/seccion_4_operadores/seccion_4_operadores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seccion_5_sentencias_decision/seccion_5_sentencias_decision.iml" filepath="$PROJECT_DIR$/seccion_5_sentencias_decision/seccion_5_sentencias_decision.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seccion_6_ciclos/seccion_6_ciclos.iml" filepath="$PROJECT_DIR$/seccion_6_ciclos/seccion_6_ciclos.iml" />
+    </modules>
+  </component>
+</project>
