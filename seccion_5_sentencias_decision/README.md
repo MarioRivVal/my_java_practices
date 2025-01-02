@@ -7,7 +7,7 @@
 - [Ejercicio 1 - Verificador de Números Positivos, Negativos o Cero](#ejercicio-1-verificador-de-números-positivos-negativos-o-cero-if-else-if-else)
 - [Ejercicio 2 - Calculadora de Descuento en Compras](#ejercicio-2-calculadora-de-descuento-en-compras-if-else-if-else)
 - [Ejercicio 3 - Confirmar Continuación del Servicio](#ejercicio-3-confirmar-continuación-del-servicio-if-else)
-- [Ejercicio 4 - Entrada a la Casa de los Espejoso](#ejercicio-4-entrada-a-la-casa-de-los-espejos-if-else)
+- [Ejercicio 4 - Entrada a la Casa de los Espejos](#ejercicio-4-entrada-a-la-casa-de-los-espejos-if-else)
 - [Ejercicio 5 - Rastreador de Pasos Diarios](#ejercicio-5-rastreador-de-pasos-diarios-operador-ternario)
 - [Ejercicio 6 - Cálculo de Precio de Reserva de Habitación](#ejercicio-6-cálculo-de-precio-de-reserva-de-habitación-operador-ternario)
 - [Ejercicio 7 - Encuentra el Número Mayor](#ejercicio-7-encuentra-el-número-mayor-operador-ternario)

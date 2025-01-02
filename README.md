@@ -16,6 +16,7 @@ preguntas tipos test.
 3. [Entrada de datos por consola (Scanner())](/seccion_3_datos_consola/src/)
 4. [Operadores (Aritméticos, Comparación, Lógicos, ect) ](/seccion_4_operadores/src/)
 5. [Sentencias de decisiones (if-else, switch, operador ternario)) y diagramas de flujo ](/seccion_5_sentencias_decision/src/)
+6. [Ciclos o Bucles (for, while, do while) junto a sus diagramas de flujo](/seccion_6_ciclos/src/)
 
 _(Más temas serán agregados a medida que avance)_
 
@@ -23,7 +24,9 @@ _(Más temas serán agregados a medida que avance)_
 
 Este repositorio es un recurso tanto para mí como para otros estudiantes
 interesados en Java. Mi objetivo es crear una colección organizada de apuntes y
-ejercicios que permita revisar conceptos y reforzar el aprendizaje.
+ejercicios que permita revisar conceptos y reforzar el aprendizaje. Recuerda que
+mi solución no tiene porque ser la correcta, simplemente comparto contigo como
+realizé cada uno de ellos.
 
 ## 🚀 Cómo Usar Este Repositorio
 
@@ -42,7 +45,7 @@ ejercicios que permita revisar conceptos y reforzar el aprendizaje.
 - ✅ Operadores (Aritméticos, Comparación, Lógicos, ect)
 - ✅ Sentencias de Decisión (if, if-else, switch, yield, operador ternario),
   diagrama de flujo
-- ⬜ Ciclos (for, while, do while, ect)
+- ✅ Ciclos (for, while, do while, ect)
 - ⬜ Arreglos, Matrices
 - ⬜ Funciones
 - ⬜ Clases y Objetos (POO)
@@ -59,4 +62,4 @@ encontrarme en:
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mario-valverde-web-developer/)
 
 ¡Gracias por visitar mi repositorio! Espero que este recurso te sea útil en tu
-propio camino de aprendizaje en Java. ¡Feliz codificación! 🚀
+propio camino de aprendizaje en Java. 🚀

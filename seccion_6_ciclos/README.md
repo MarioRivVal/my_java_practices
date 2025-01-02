@@ -8,6 +8,10 @@
 - [Ejercicio 2 - Números pares hasta un valor específico](#ejercicio-2-números-pares-hasta-un-valor-específico-while)
 - [Ejercicio 3 - Números imparares descendentes](#ejercicio-3-números-imparares-descendente-do-while)
 - [Ejercicio 4 - Suma acomulativa](#ejercicio-4-suma-acomulativa-for)
+- [Ejercicio 5 - Cajero automático](#ejercicio-5-operaciones-bancarias-en-un-cajero-automático)
+- [Ejercicio 6 - Calculadora básica](#ejercicio-6-calculadora-básica)
+- [Ejercicio 7 - Validación de contraseña](#ejercicio-7-validación-de-contraseñas)
+- [Ejercicio 8 - Juego adivina número secreto](#ejercicio-8-juego-adivina-el-número-secreto)
 
 ### 2. Test
 
@@ -18,7 +22,7 @@
 
 - [Diagramas de flujo]()
 
----
+<hr style="border: 1px solid #136AC7;" />
 
 ## **Ejercicio 1: Contador numerico con verificación de entrada (while)**
 
@@ -89,7 +93,7 @@ Please enter an integer number: 7
 
 ![Diagrama de flujo](./img/ejercicio1.png)
 
----
+<hr style="border: 1px solid #136AC7;" />
 
 ## **Ejercicio 2: Números Pares hasta un Valor Específico (while)**
 
@@ -146,7 +150,7 @@ Please enter a integer number: 10
 - **Tip:** La validación de la entrada es clave para evitar errores, y el
   programa no debe finalizar hasta que el usuario proporcione un valor correcto.
 
----
+<hr style="border: 1px solid #136AC7;" />
 
 ## **Ejercicio 3: Números imparares descendentes (do, while)**
 
@@ -207,6 +211,8 @@ ciclo para cumplir con el propósito didáctico.
 
 ![Diagrama de flujo](./img/ejercicio3.png)
 
+<hr style="border: 1px solid #136AC7;" />
+
 ## **Ejercicio 4: Suma acomulativa (for)**
 
 ### Descripción:
@@ -238,7 +244,7 @@ Enter a integer number: 5
 
 El programa calcula que la suma acumulativa de `1` a `5` es `15`.
 
----
+<hr style="border: 1px solid #136AC7;" />
 
 ## **Ejercicio 5: Operaciones bancarias en un Cajero Automático**
 
@@ -303,3 +309,216 @@ acumulativas.
 ### Diagrama de flujo
 
 ![Diagrama de flujo](./img/ejercicio5.png)
+
+<hr style="border: 1px solid #136AC7;" />
+
+## **Ejercicio 6: Calculadora Básica**
+
+En este ejercicio, vamos a construir una **calculadora interactiva** utilizando
+estructuras de control, bucles y manejo de entrada/salida en Java.
+
+---
+
+### Instrucciones del ejercicio:
+
+1. **Objetivo del programa:**  
+   Crear una calculadora básica que permita realizar las operaciones de suma,
+   resta, multiplicación y división. El programa continuará ejecutándose hasta
+   que se ingrese una opción válida y se muestren los resultados.
+
+2. **Pasos principales a implementar:**
+
+   - Mostrar un menú con las opciones de operaciones disponibles:  
+     `1. Addition`, `2. Subtraction`, `3. Multiplication`, `4. Division`.
+   - Leer las entradas del usuario (selección de operación, primer número y
+     segundo número).
+   - Verificar que la entrada del usuario sea válida. Si no lo es, mostrar un
+     mensaje y pedir una nueva entrada.
+   - Realizar la operación seleccionada y mostrar el resultado en un formato
+     legible y profesional (por ejemplo, con 2 decimales).
+   - Manejar errores como **división por cero** con mensajes adecuados.
+
+3. **Puntos clave:**
+   - Usa un **bucle `while`** para permitir reintentos en caso de una entrada no
+     válida.
+   - Usa un **switch** para ejecutar la operación seleccionada.
+   - Usa el formato `System.out.printf` para mostrar los resultados con
+     precisión.
+
+---
+
+### **Tareas**
+
+1. **Ejecutar el programa:**  
+   Prueba diferentes casos, como:
+
+   - **Suma:** `5 + 3`.
+   - **Resta:** `10 - 7`.
+   - **Multiplicación:** `2 * 8`.
+   - **División válida:** `16 / 4`.
+   - **División inválida:** `7 / 0`.
+
+2. **Analizar el código:**  
+   Asegúrate de comprender cómo funciona cada parte del programa, incluyendo:
+   - **Validación de entrada (`if` con `scanner.hasNextInt()`).**
+   - **Switch-case para operaciones.**
+   - **Formato de salida con `System.out.printf`.**
+
+---
+
+### Resultado esperado:
+
+1. El programa debe mostrar un menú y esperar que el usuario seleccione una
+   opción.
+2. Según la selección, solicitará los números, ejecutará la operación y mostrará
+   el resultado con un formato adecuado (dos decimales).
+3. Si el usuario ingresa algo no válido, debe mostrar un mensaje de error y
+   volver a pedir una entrada válida.
+
+<hr style="border: 1px solid #136AC7;" />
+
+## **Ejercicio 7: Validación de contraseñas**
+
+En este ejercicio, practicarás el uso de estructuras de control, manejo de
+cadenas y el ciclo `while` para validar entradas del usuario. El objetivo es
+crear un programa que permita al usuario ingresar una contraseña con ciertas
+restricciones, verificarlas, y aceptarla solo si cumple con los requisitos.
+
+---
+
+#### **Instrucciones:**
+
+1. **Contexto del programa:**
+
+   - El programa debe solicitar al usuario que ingrese una nueva contraseña.
+   - La contraseña debe cumplir con las siguientes condiciones:
+     - Tener al menos 6 caracteres.
+     - No tener más de 10 caracteres.
+
+2. **Flujo del programa:**
+
+   - Mientras la contraseña ingresada no cumpla con las reglas, el programa debe
+     seguir solicitando una nueva entrada.
+   - Una vez que el usuario ingrese una contraseña válida, el programa debe
+     mostrar un mensaje indicando que la contraseña ha sido aceptada y luego
+     finalizar.
+
+3. **Pautas para completar el código:**
+
+   - Usa un ciclo `while` para continuar solicitando la contraseña si no es
+     válida.
+   - Usa los métodos de la clase `String` para verificar la longitud de la
+     contraseña.
+   - Asegúrate de imprimir un mensaje de error claro cuando la contraseña no
+     cumpla con las condiciones.
+
+4. **Restricciones del programa:**
+   - El rango de caracteres permitidos debe ser fácil de ajustar en el programa
+     (por ejemplo, usando variables como `MIN_CHAR` y `MAX_CHAR`).
+
+<hr style="border: 1px solid #136AC7;" />
+
+## **Ejercicio 8: Juego adivina el número secreto**
+
+### **Descripción**
+
+En este ejercicio, crearás un programa en Java que desafíe al usuario a adivinar
+un **número secreto** generado aleatoriamente por la computadora. El objetivo es
+proporcionar una experiencia interactiva y entretenida, utilizando estructuras
+de control y validaciones para guiar al usuario durante el juego.
+
+---
+
+### **Requisitos del programa**
+
+1. El programa debe generar un número aleatorio entre **1** y **50** al inicio
+   del juego. Este será el número secreto que el usuario debe adivinar.
+
+2. El usuario tendrá **10 intentos** para adivinar el número secreto. Cada vez
+   que ingrese un número:
+
+   - Si el número es correcto, el programa debe felicitar al usuario y mostrar
+     cuántos intentos le tomó acertar.
+   - Si el número es incorrecto, el programa debe dar una pista indicando si el
+     número secreto es **mayor** o **menor** al número ingresado.
+
+3. Si el usuario no logra adivinar el número en 10 intentos:
+
+   - El programa debe mostrar un mensaje indicando que el juego ha terminado y
+     revelar el número secreto.
+
+4. Si deseas, opcionalmente puedes hacer que el programa sea más interesante
+   utilizando colores en los mensajes. Por ejemplo:
+   - Verde para mensajes de bienvenida.
+   - Azul para mensajes de victoria.
+   - Rojo para mensajes de error o "game over".
+
+---
+
+### **Pistas para completar el ejercicio**
+
+- Usa la clase `Random` para generar el número secreto. ¿Recuerdas cómo
+  hacerlo?  
+  Si no, investiga cómo usar el método `nextInt()` de la clase `Random`.
+
+- Usa un bucle `while` para repetir el juego hasta que el usuario gane o se
+  queden sin intentos.
+
+- Usa condicionales `if` para comparar la entrada del usuario con el número
+  secreto y dar retroalimentación.
+
+- Para manejar entradas inválidas, puedes usar un bloque `try-catch` con la
+  excepción `NumberFormatException`.
+
+---
+
+### **Resultado esperado**
+
+Al ejecutar el programa, debería verse algo como esto en la consola (los
+mensajes en color son opcionales):
+
+```
+WELCOME TO THE GUESSING GAME! 🎉
+---------------------------------
+Adivina el número secreto entre 1 y 50.
+
+Intento 1: Ingresa un número: 25
+El número secreto es mayor.
+
+Intento 2: Ingresa un número: 40
+El número secreto es menor.
+
+Intento 3: Ingresa un número: 35
+¡Felicidades! 🎉 Adivinaste el número secreto en 3 intentos.
+```
+
+O, si el jugador falla todos los intentos:
+
+```
+Intento 10: Ingresa un número: 5
+GAME OVER. 😢 Has agotado tus intentos.
+El número secreto era 7.
+```
+
+---
+
+### **Requisitos adicionales (opcional)**
+
+1. **Hazlo más interesante**:
+
+   - Agrega un mensaje especial si el jugador acierta en su **primer intento**.
+     Ejemplo: "¡Impresionante! Adivinaste el número en el primer intento."
+
+2. **Configuración personalizada**:
+
+   - Permite al usuario elegir la cantidad máxima de intentos antes de iniciar
+     el juego.
+
+3. **Bucles adicionales**:
+   - Después de terminar, pregunta al usuario si desea jugar nuevamente.
+
+---
+
+### Diagrama de flujo
+
+![Diagrama de flujo](./img/ejercicio8.png)
