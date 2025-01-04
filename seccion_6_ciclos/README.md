@@ -12,15 +12,12 @@
 - [Ejercicio 6 - Calculadora básica](#ejercicio-6-calculadora-básica)
 - [Ejercicio 7 - Validación de contraseña](#ejercicio-7-validación-de-contraseñas)
 - [Ejercicio 8 - Juego adivina número secreto](#ejercicio-8-juego-adivina-el-número-secreto)
+- [Ejercicio 9 - Generador de triángulo](#ejercicio-9-generador-de-triángulo)
 
 ### 2. Test
 
 - [Preguntas]()
 - [Respuestas]()
-
-### 3. Teoria
-
-- [Diagramas de flujo]()
 
 <hr style="border: 1px solid #136AC7;" />
 
@@ -522,3 +519,454 @@ El número secreto era 7.
 ### Diagrama de flujo
 
 ![Diagrama de flujo](./img/ejercicio8.png)
+
+<hr style="border: 1px solid #136AC7;" />
+
+## Ejercicio 9: Generador de Triángulo
+
+### Instrucciones:
+
+1. Escribe un programa en Java que genere un triángulo isósceles de una altura
+   específica indicada por el usuario. La base del triángulo debe estar
+   compuesta por un número impar de caracteres.
+
+2. **Requisitos específicos:**
+
+   - Solicitar al usuario que ingrese la **altura del triángulo** (un número
+     entero positivo).
+   - Cada nivel del triángulo debe estar centrado en la consola y debe alinearse
+     correctamente según la altura.
+   - Usar un carácter como `O` para construir el triángulo y rellenar los
+     espacios vacíos con blancos (` `).
+
+3. **Ejemplo de entrada y salida:**
+
+   - **Entrada:**
+     ```plaintext
+     Enter your triangle's height: 5
+     ```
+   - **Salida esperada:**
+     ```plaintext
+         O
+        OOO
+       OOOOO
+      OOOOOOO
+     OOOOOOOOO
+     ```
+
+4. **Puntos clave:**
+
+   - Asegúrate de calcular correctamente la cantidad de espacios en blanco y
+     caracteres `O` para cada fila.
+   - Usa bucles para repetir las operaciones necesarias.
+   - Maneja adecuadamente el formato para que las filas estén centradas en la
+     consola.
+
+5. **Consideraciones adicionales:**
+   - Validar que la entrada del usuario sea un número entero positivo. Si el
+     usuario introduce algo inválido, muestra un mensaje de error y solicita
+     nuevamente la altura.
+
+---
+
+### Tips (¡Pero no soluciones!):
+
+- ¿Sabes cómo calcular los espacios en blanco en función de la altura?
+- Practica cómo usar el método `String.repeat()` para generar una cantidad
+  específica de caracteres.
+- Recuerda que cada fila tiene un patrón de **espacios en blanco** seguido por
+  **un número impar de caracteres `O`**.
+
+<hr style="border: 1px solid #136AC7;" />
+
+# **Test Ciclos o Bucles**
+
+1. ¿Cuál es la estructura básica de un bucle `for` en Java?  
+   a) `for (inicio; condición; actualización) { cuerpo }`  
+   b) `for {inicio; condición; actualización} (cuerpo)`  
+   c) `for (cuerpo; inicio; condición; actualización)`
+
+---
+
+2. ¿Qué ocurrirá con este código?
+   ```java
+   for (int i = 0; i < 5; i++) {
+       System.out.println(i);
+   }
+   ```
+   a) Imprimirá los números del 0 al 5.  
+   b) Imprimirá los números del 0 al 4.  
+   c) Generará un error porque falta una instrucción de `break`.
+
+---
+
+3. ¿Cuál es la salida del siguiente código?
+   ```java
+   for (int i = 1; i <= 3; i++) {
+       System.out.print(i + " ");
+   }
+   ```
+   a) `1 2 3`  
+   b) `0 1 2`  
+   c) `1 2 3 4`
+
+---
+
+4. ¿Qué pasará si se omite la sección de **actualización** en un bucle `for`?  
+   a) El bucle no se ejecutará.  
+   b) El bucle podría convertirse en un bucle infinito.  
+   c) Generará un error de compilación.
+
+---
+
+5. ¿Cuál es la forma correcta de usar varias variables en un bucle `for`?  
+   a) `for (int i = 0, j = 5; i < j; i++)`  
+   b) `for int i = 0, int j = 5; i < j; i++`  
+   c) `for (i = 0, j = 5; i < j; i++)`
+
+---
+
+6. ¿Qué realiza el bucle `while` en Java?  
+   a) Ejecuta su cuerpo al menos una vez.  
+   b) Ejecuta su cuerpo mientras la condición sea verdadera.  
+   c) Ejecuta su cuerpo un número fijo de veces.
+
+---
+
+7. ¿Qué ocurre si la condición de un bucle `while` nunca se cumple?  
+   a) El programa genera un error.  
+   b) El cuerpo del bucle nunca se ejecuta.  
+   c) El bucle se ejecuta infinitamente.
+
+---
+
+8. ¿Qué pasa si olvidas actualizar la condición dentro del cuerpo del bucle
+   `while`?  
+   a) El bucle termina inmediatamente.  
+   b) El programa genera un error de compilación.  
+   c) El bucle se convierte en un bucle infinito.
+
+---
+
+9. ¿Cuál es la salida del siguiente código?
+   ```java
+   int i = 0;
+   while (i < 3) {
+       System.out.print(i + " ");
+       i++;
+   }
+   ```
+   a) `0 1 2`  
+   b) `0 1 2 3`  
+   c) `1 2 3`
+
+---
+
+10. ¿Cuál es una posible causa de un bucle infinito en un `while`?  
+    a) No se actualiza la condición.  
+    b) El cuerpo del bucle está vacío.  
+    c) Usar una variable de tipo `float`.
+
+---
+
+11. ¿Cuál es la diferencia entre un bucle `while` y `do-while`?  
+    a) `while` ejecuta el cuerpo al menos una vez, `do-while` no lo hace.  
+    b) `do-while` ejecuta el cuerpo al menos una vez, incluso si la condición es
+    falsa.  
+    c) No hay ninguna diferencia.
+
+---
+
+12. ¿Cuál es la salida del siguiente código?
+    ```java
+    int i = 5;
+    do {
+        System.out.print(i + " ");
+        i++;
+    } while (i < 8);
+    ```
+    a) `5 6 7`  
+    b) `5 6`  
+    c) `5 6 7 8`
+
+---
+
+13. ¿Qué ocurre si la condición de un bucle `do-while` es falsa desde el
+    inicio?  
+    a) El cuerpo no se ejecuta.  
+    b) El cuerpo se ejecuta una vez.  
+    c) Genera un error.
+
+---
+
+14. ¿Cuál es la estructura básica de un bucle `do-while`?  
+    a) `do { cuerpo } until (condición);`  
+    b) `do { cuerpo } while (condición);`  
+    c) `{ cuerpo } while (condición);`
+
+15. ¿Qué se imprime en el siguiente código?
+    ```java
+    int i = 1;
+    do {
+        System.out.print(i + " ");
+        i--;
+    } while (i > 0);
+    ```
+    a) `1 0`  
+    b) `1`  
+    c) `Nada, genera un error`
+
+---
+
+16. ¿Para qué sirve la palabra clave `break` en un bucle?  
+    a) Salir inmediatamente del bucle.  
+    b) Saltar la iteración actual del bucle.  
+    c) Finalizar el programa.
+
+---
+
+17. ¿Qué ocurre al usar `break` dentro de un bucle `for`?  
+    a) Finaliza la iteración actual y pasa a la siguiente.  
+    b) Sale del bucle completamente.  
+    c) Genera un error.
+
+---
+
+18. ¿Cuál es la salida del siguiente código?
+    ```java
+    for (int i = 0; i < 5; i++) {
+        if (i == 3) break;
+        System.out.print(i + " ");
+    }
+    ```
+    a) `0 1 2 3`  
+    b) `0 1 2`  
+    c) `0 1`
+
+---
+
+19. ¿Se puede usar `break` en un bucle infinito para detenerlo?  
+    a) No, no es posible.  
+    b) Sí, pero solo en bucles `while`.  
+    c) Sí, se puede usar en cualquier tipo de bucle.
+
+---
+
+20. ¿Qué ocurre si `break` se usa fuera de un bucle o `switch`?  
+    a) Genera un error de compilación.  
+    b) Se ignora.  
+    c) Detiene el programa.
+
+---
+
+21. ¿Qué realiza la palabra clave `continue` en un bucle?  
+    a) Finaliza el programa.  
+    b) Salta el resto del cuerpo del bucle y pasa a la siguiente iteración.  
+    c) Sale completamente del bucle.
+
+---
+
+22. ¿Qué se imprime en este código?
+    ```java
+    for (int i = 0; i < 5; i++) {
+        if (i == 2) continue;
+        System.out.print(i + " ");
+    }
+    ```
+    a) `0 1 3 4`  
+    b) `0 1 2 3 4`  
+    c) `0 1 2`
+
+---
+
+23. ¿Qué ocurre si se usa `continue` en un bucle `while`?  
+    a) Salta a la próxima iteración.  
+    b) Termina el bucle.  
+    c) Se ignora.
+
+---
+
+24. ¿Qué ocurre en este código?
+    ```java
+    int i = 0;
+    while (i < 5) {
+        i++;
+        if (i == 3) continue;
+        System.out.print(i + " ");
+    }
+    ```
+    a) `1 2 4 5`  
+    b) `1 2 3 4 5`  
+    c) `0 1 2 4 5`
+
+---
+
+25. ¿Cuál es una diferencia clave entre `break` y `continue`?  
+    a) `break` detiene el bucle, `continue` salta a la próxima iteración.  
+    b) `continue` detiene el bucle, `break` salta a la próxima iteración.  
+    c) Ambas detienen el bucle.
+
+---
+
+26. ¿Cuál es el resultado de este código?
+    ```java
+    for (int i = 1; i <= 5; i++) {
+        if (i % 2 == 0) continue;
+        System.out.print(i + " ");
+    }
+    ```
+    a) `1 3 5`  
+    b) `2 4`  
+    c) `1 2 3 4 5`
+
+---
+
+27. ¿Qué ocurre al usar `break` en un bucle anidado?  
+    a) Sale de ambos bucles.  
+    b) Sale solo del bucle más interno.  
+    c) Genera un error.
+
+---
+
+28. ¿Qué hace el siguiente código?
+    ```java
+    int i = 0;
+    do {
+        if (i == 2) break;
+        System.out.print(i + " ");
+        i++;
+    } while (i < 5);
+    ```
+    a) `0 1`  
+    b) `0 1 2`  
+    c) `0 1 2 3`
+
+---
+
+29. ¿Cuál es el efecto de combinar `continue` con un contador mal actualizado?  
+    a) Puede crear un bucle infinito.  
+    b) El bucle se detiene inmediatamente.  
+    c) Se ignora la instrucción `continue`.
+
+---
+
+30. ¿Qué pasa si colocas un `break` dentro de un bloque `if` dentro de un
+    bucle?  
+    a) Finaliza el bucle si la condición del `if` es verdadera.  
+    b) No afecta el bucle.  
+    c) Genera un error.
+
+<hr style="border: 1px solid #136AC7;" />
+
+## **Respuestas del Test**
+
+1. **a) `for (inicio; condición; actualización) { cuerpo }`**  
+   _Porque esta es la sintaxis correcta para definir un bucle `for` en Java._
+
+2. **b) Imprimirá los números del 0 al 4.**  
+   _El bucle comienza en `0` y se ejecuta mientras `i < 5`, deteniéndose antes
+   de llegar a 5._
+
+3. **a) `1 2 3`**  
+   _El bucle comienza en `1` y se detiene después de imprimir hasta `3` porque
+   la condición `i <= 3` se cumple._
+
+4. **b) El bucle podría convertirse en un bucle infinito.**  
+   _Si no se actualiza la variable de control, la condición nunca cambiará,
+   causando un bucle infinito._
+
+5. **a) `for (int i = 0, j = 5; i < j; i++)`**  
+   _Puedes declarar varias variables separándolas con comas en la inicialización
+   del `for`._
+
+6. **b) Ejecuta su cuerpo mientras la condición sea verdadera.**  
+   _El bucle `while` evalúa su condición antes de ejecutar el cuerpo._
+
+7. **b) El cuerpo del bucle nunca se ejecuta.**  
+   _Si la condición es falsa desde el principio, el cuerpo nunca se ejecuta en
+   un `while`._
+
+8. **c) El bucle se convierte en un bucle infinito.**  
+   _Si no actualizas la variable de control dentro del cuerpo, la condición
+   nunca se hace falsa._
+
+9. **a) `0 1 2`**  
+   _El bucle se ejecuta mientras `i < 3`, incrementando `i` después de cada
+   iteración._
+
+10. **a) No se actualiza la condición.**  
+    _La falta de actualización de la condición puede hacer que el bucle nunca
+    termine._
+
+11. **b) `do-while` ejecuta el cuerpo al menos una vez, incluso si la condición
+    es falsa.**  
+    _El `do-while` siempre ejecuta el cuerpo antes de evaluar la condición._
+
+12. **a) `5 6 7`**  
+    _El bucle comienza en `5`, incrementa hasta `7` y se detiene porque `i < 8`
+    deja de cumplirse._
+
+13. **b) El cuerpo se ejecuta una vez.**  
+    _En un `do-while`, el cuerpo siempre se ejecuta al menos una vez._
+
+14. **b) `do { cuerpo } while (condición);`**  
+    _Esta es la sintaxis correcta del bucle `do-while`._
+
+15. **b) `1`**  
+    _El bucle ejecuta el cuerpo una vez y luego verifica que `i > 0`, que no se
+    cumple._
+
+16. **a) Salir inmediatamente del bucle.**  
+    _El `break` detiene la ejecución del bucle por completo._
+
+17. **b) Sale del bucle completamente.**  
+    _El `break` no solo termina la iteración actual, sino que finaliza todo el
+    bucle._
+
+18. **b) `0 1 2`**  
+    _El bucle se detiene antes de imprimir `3` porque se encuentra el `break`
+    cuando `i == 3`._
+
+19. **c) Sí, se puede usar en cualquier tipo de bucle.**  
+    _El `break` es compatible con `for`, `while` y `do-while` para salir de
+    ellos._
+
+20. **a) Genera un error de compilación.**  
+    _El `break` solo se puede usar dentro de bucles o bloques `switch`._
+
+21. **b) Salta el resto del cuerpo del bucle y pasa a la siguiente
+    iteración.**  
+    _El `continue` omite las instrucciones restantes del cuerpo y va a la
+    siguiente iteración._
+
+22. **a) `0 1 3 4`**  
+    _El `continue` salta la iteración donde `i == 2`, por lo que no imprime
+    `2`._
+
+23. **a) Salta a la próxima iteración.**  
+    _En un bucle `while`, el `continue` va directamente a verificar la condición
+    nuevamente._
+
+24. **a) `1 2 4 5`**  
+    _El `continue` omite el cuerpo cuando `i == 3`, por lo que no se imprime
+    `3`._
+
+25. **a) `break` detiene el bucle, `continue` salta a la próxima iteración.**  
+    _La diferencia clave es que `break` sale del bucle y `continue` sigue con la
+    próxima iteración._
+
+26. **a) `1 3 5`**  
+    _El `continue` omite las iteraciones donde el número es par (`i % 2 == 0`)._
+
+27. **b) Sale solo del bucle más interno.**  
+    _El `break` solo afecta al bucle en el que está contenido._
+
+28. **a) `0 1`**  
+    _El bucle se detiene al encontrar el `break` cuando `i == 2`._
+
+29. **a) Puede crear un bucle infinito.**  
+    _Si el `continue` omite una actualización necesaria, la condición podría no
+    cambiar nunca._
+
+30. **a) Finaliza el bucle si la condición del `if` es verdadera.**  
+    _El `break` solo se ejecuta cuando la condición `if` se cumple._
