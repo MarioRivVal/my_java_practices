@@ -6,6 +6,9 @@
 
 - [Ejercicio 1 - Cálculo de Promedio con Arreglos](#ejercicio-1-cálculo-de-promedio-con-arreglos)
 - [Ejercicio 2 - Suma de Diagonal de una Matriz ](#ejercicio-2-suma-de-diagonal-de-una-matriz)
+- [Ejercicio 3 - Número Máximo y Mínimo ](#ejercicio-3--número-máximo-y-mínimo)
+- [Ejercicio 4 - Contar Palabras y Longitudes de Cadenas](#ejercicio-4-contar-palabras-y-longitudes-de-cadenas)
+- [Ejercicio 5 - Tablas de Frecuencia de Números](#ejercicio-5-tablas-de-frecuencia-de-números)
 
 ### 2. Test
 
