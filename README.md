@@ -17,7 +17,8 @@ preguntas tipos test.
 4. [Operadores (Aritméticos, Comparación, Lógicos, ect) ](/seccion_4_operadores/src/)
 5. [Sentencias de decisiones (if-else, switch, operador ternario)) y diagramas de flujo ](/seccion_5_sentencias_decision/src/)
 6. [Ciclos o Bucles (for, while, do while) junto a sus diagramas de flujo](/seccion_6_ciclos/src/)
-6. [Arreglos y matrices](/seccion_7_arreglos/src/)
+7. [Arreglos y matrices](/seccion_7_arreglos/src/)
+8. [Funciones](/seccion_8_funciones/)
 
 _(Más temas serán agregados a medida que avance)_
 
@@ -48,7 +49,7 @@ realizé cada uno de ellos.
   diagrama de flujo
 - ✅ Ciclos (for, while, do while, ect)
 - ✅ Arreglos, Matrices
-- ⬜ Funciones
+- ✅ Funciones
 - ⬜ Clases y Objetos (POO)
 - ⬜ Manejo de archivos
 - ⬜ Conexión a base de datos.

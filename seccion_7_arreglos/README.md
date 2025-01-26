@@ -410,3 +410,4 @@ Crea un programa que permita al usuario ingresar una lista de números enteros e
 20. **b) Ambos arrays apuntan al mismo espacio en memoria.**  
     _Porque en Java, los arrays son referencias, y la asignación no crea una copia._  
 
+
