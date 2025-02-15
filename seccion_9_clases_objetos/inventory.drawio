@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.13">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="819" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="9nsBDYvgDGhVVPBDV3dB-0" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="980" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9nsBDYvgDGhVVPBDV3dB-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" source="9nsBDYvgDGhVVPBDV3dB-3" target="9nsBDYvgDGhVVPBDV3dB-3" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9nsBDYvgDGhVVPBDV3dB-3" value="crea producto pasando&lt;div&gt;nombre, categoria, cantidad&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9nsBDYvgDGhVVPBDV3dB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;flowAnimation=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9nsBDYvgDGhVVPBDV3dB-4" target="9nsBDYvgDGhVVPBDV3dB-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499.9999999999998" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nsBDYvgDGhVVPBDV3dB-11" value="si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="9nsBDYvgDGhVVPBDV3dB-10">
+          <mxGeometry x="-0.2698" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nsBDYvgDGhVVPBDV3dB-16" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;flowAnimation=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9nsBDYvgDGhVVPBDV3dB-4" target="9nsBDYvgDGhVVPBDV3dB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9nsBDYvgDGhVVPBDV3dB-4" value="el producto ya&amp;nbsp;&lt;div&gt;existe en ese&lt;/div&gt;&lt;div&gt;inventario?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="630" y="590" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9nsBDYvgDGhVVPBDV3dB-5" value="Guardar el producto en un inventario" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="390" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9nsBDYvgDGhVVPBDV3dB-6" value="se actualiza la cantidad con la nueva cantidad" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9nsBDYvgDGhVVPBDV3dB-7" value="se agrega al array del inventario con un id" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9nsBDYvgDGhVVPBDV3dB-9" value="buscar por nombre y categoria en el array&lt;div&gt;inventario&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9nsBDYvgDGhVVPBDV3dB-17" value="imprimir lista de&lt;div&gt;todos los productos&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="950" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9nsBDYvgDGhVVPBDV3dB-18" value="confirmar con&lt;div&gt;un mensaje&lt;/div&gt;&lt;div&gt;de agregacion o&lt;/div&gt;&lt;div&gt;actualizacion&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="630" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
