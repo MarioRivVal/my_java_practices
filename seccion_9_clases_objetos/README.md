@@ -9,14 +9,11 @@
 - [Ejercicio 3 - Crear Varias Clases Relacionadas](#ejercicio-3-crear-varias-clases-relacionadas)
 - [Ejercicio 4 - Arreglos de Objetos](#ejercicio-4-arreglos-de-objetos)
 - [Ejercicio 5 - Herencia y Polimorfismos](#ejercicio-5-herencia-y-polimorfismo)
-- [Ejercicio 6 - Sistema de Gestión de Inventarios](#ejercicio-6-sistema-de-gestión-de-inventarios)
-- [Ejercicio 7 - Sistema de Biblioteca](#ejercicio-7-sistema-de-biblioteca)
-- [Ejercicio 8 - Sistema de Empleados y Nóminas](#ejercicio-8-sistema-de-empleados-y-nóminas)
 
 ### 2. Test
 
-- [Preguntas](#test-funciones-en-java)
-- [Respuestas](#respuestas-del-test)
+- [Preguntas](#test-oop-oriented-object-programing)
+- [Respuestas](#test-respuestas)
 
 <hr style="border: 1px solid #136AC7;" />
 
@@ -104,112 +101,214 @@
    - Recorre el arreglo y llama al método `hacerSonido()` de cada objeto.
    - Usa el polimorfismo para que el método adecuado se invoque automáticamente.
 
-¡Por supuesto! Voy a simplificar los ejercicios para que no requieran el uso de
-estructuras como `ArrayList` o `HashMap`. Usaremos arreglos simples y conceptos
-básicos que ya has aprendido.
+<hr style="border: 1px solid #136AC7;" />
 
----
+# **Test: OOP (Oriented Object Programing)**
 
-## **Ejercicio 6: Sistema de Gestión de Inventarios**
+#### **1.** ¿Qué es la Programación Orientada a Objetos (OOP)?
 
-### **Descripción:**
+- a) Un paradigma de programación basado en el uso de funciones y
+  procedimientos.
+- b) Un paradigma de programación basado en objetos que combinan datos y
+  métodos.
+- c) Un enfoque para diseñar bases de datos relacionales.
 
-Diseña un sistema que gestione un inventario de productos. Cada producto tiene
-un identificador único, un nombre, una categoría y una cantidad en stock.
+#### **2.** ¿Qué es una clase en OOP?
 
-1. **Clases a Crear:**
+- a) Una instancia de un objeto.
+- b) Una estructura que contiene únicamente datos.
+- c) Una plantilla o molde para crear objetos.
 
-   - `Product`: Contendrá los atributos básicos del producto.
-   - `Inventory`: Contendrá un arreglo de productos con un tamaño fijo y métodos
-     para:
-     - Añadir un producto al inventario.
-     - Actualizar la cantidad de un producto dado su ID.
-     - Mostrar todos los productos de una categoría específica.
+#### **3.** ¿Qué es un objeto en OOP?
 
-2. **Requerimientos:**
-   - Usa un **arreglo fijo** para almacenar los productos (ejemplo:
-     `Product[] products = new Product[10];`).
-   - Asegúrate de no añadir productos si el arreglo está lleno.
+- a) Una variable que almacena datos.
+- b) Una instancia de una clase que combina estado y comportamiento.
+- c) Una función que realiza una tarea específica.
 
----
+#### **4.** ¿Qué significa encapsulación en OOP?
 
-### **Ejemplo de Salida:**
+- a) Agrupar datos y métodos en una clase mientras se ocultan los detalles
+  internos.
+- b) Heredar características de otra clase.
+- c) Permitir que múltiples clases compartan una misma interfaz.
 
-```text
-Producto añadido: Laptop (Categoría: Electrónica, Stock: 50)
-Producto añadido: Camiseta (Categoría: Ropa, Stock: 30)
-Stock de producto con ID 1 actualizado a 60.
-Productos en categoría 'Ropa':
-- Camiseta (ID: 2, Stock: 30)
-```
+#### **5.** ¿Cómo se implementa la encapsulación en Java?
 
----
+- a) Declarando atributos privados y proporcionando getters y setters.
+- b) Declarando todos los atributos públicos.
+- c) Usando la palabra clave `protected` para todos los métodos.
 
-## **Ejercicio 7: Sistema de Biblioteca**
+#### **6.** ¿Qué es un constructor en Java?
 
-### **Descripción:**
+- a) Un método que debe ser llamado manualmente para inicializar un objeto.
+- b) Un método especial que se llama automáticamente al crear un objeto.
+- c) Una función que retorna valores constantes para los atributos.
 
-Crea un sistema de gestión de préstamos en una biblioteca. Los libros tienen un
-título, un autor, un identificador único, y un estado (`disponible` o
-`prestado`). Los usuarios tienen un nombre y un número de identificación.
+#### **7.** ¿Qué principio de OOP permite que una clase reutilice el comportamiento de otra clase?
 
-1. **Clases a Crear:**
+- a) Polimorfismo.
+- b) Encapsulación.
+- c) Herencia.
 
-   - `Book`: Representa un libro con sus atributos básicos y su estado.
-   - `User`: Representa a un usuario con su nombre y un ID.
-   - `Library`: Contiene un arreglo de libros y métodos para:
-     - Añadir libros al sistema.
-     - Permitir a un usuario tomar prestado un libro.
-     - Mostrar todos los libros disponibles.
+#### **8.** ¿Qué palabra clave se utiliza en Java para establecer una relación de herencia entre dos clases?
 
-2. **Requerimientos:**
-   - Usa un **arreglo fijo** para los libros.
-   - Implementa validaciones, como evitar prestar un libro que ya está en
-     préstamo.
+- a) extends.
+- b) inherits.
+- c) super.
 
----
+#### **9.** ¿Qué significa el término polimorfismo en OOP?
 
-### **Ejemplo de Salida:**
+- a) La capacidad de un objeto de comportarse como cualquier otra clase.
+- b) La capacidad de una clase de tener múltiples constructores.
+- c) La capacidad de un método de tomar diferentes formas, según la clase o
+  parámetros.
 
-```text
-Libro añadido: El Hobbit (Autor: J.R.R. Tolkien, ID: 1)
-Usuario registrado: Juan Pérez (ID: 101)
-Juan Pérez tomó prestado 'El Hobbit'.
-Error: 'El Hobbit' ya está prestado.
-```
+#### **10.** ¿Qué es una interfaz en Java?
 
----
+- a) Una clase que no puede ser instanciada.
+- b) Un conjunto de métodos que una clase debe implementar.
+- c) Una clase que proporciona implementación completa de todos sus métodos.
 
-## **Ejercicio 8: Sistema de Empleados y Nóminas**
+#### **11.** ¿Qué acceso tienen los miembros de una clase marcados con `private`?
 
-### **Descripción:**
+- a) Solo son accesibles dentro de la misma clase.
+- b) Son accesibles desde todas las clases.
+- c) Son accesibles desde las subclases.
 
-Crea un sistema para calcular la nómina de empleados. Hay dos tipos de
-empleados:
+#### **12.** ¿Qué es la sobrecarga de métodos (method overloading) en Java?
 
-- Empleados por salario fijo.
-- Empleados por hora (con una tarifa por hora y un número de horas trabajadas).
+- a) La implementación de métodos con el mismo nombre pero diferentes
+  parámetros.
+- b) La implementación de métodos en clases diferentes con el mismo
+  comportamiento.
+- c) La capacidad de un método de sobrescribir a otro en una subclase.
 
-1. **Clases a Crear:**
+#### **13.** ¿Qué es la sobrescritura de métodos (method overriding) en OOP?
 
-   - `Employee` (clase base): Contiene atributos comunes como `nombre` e `ID`, y
-     un método `calculateSalary` que será redefinido por las subclases.
-   - `FixedSalaryEmployee`: Extiende de `Employee` y calcula el salario fijo.
-   - `HourlyEmployee`: Extiende de `Employee` y calcula el salario basado en
-     horas trabajadas.
-   - `PayrollSystem`: Contiene un arreglo fijo de empleados y un método para
-     mostrar sus salarios.
+- a) Cambiar el comportamiento de un método heredado en una subclase.
+- b) Declarar métodos con el mismo nombre pero diferentes parámetros.
+- c) Crear un método estático en una clase padre.
 
-2. **Requerimientos:**
-   - Usa un **arreglo fijo** para almacenar los empleados.
-   - Permite calcular el salario de todos los empleados en el arreglo.
+#### **14.** ¿Cuál es la principal diferencia entre herencia y composición?
 
----
+- a) La herencia implica reutilizar código, mientras que la composición no.
+- b) La herencia utiliza `extends`, mientras que la composición utiliza objetos
+  como atributos.
+- c) La composición solo puede ser usada en lenguajes funcionales.
 
-### **Ejemplo de Salida:**
+#### **15.** ¿Qué ocurre si un constructor no se define en una clase?
 
-```text
-Empleado: María López, Salario: $3000.0
-Empleado: Pedro Gómez, Salario: $1200.0 (Trabajó 40 horas a $30/hora)
-Total a pagar: $4200.0
-```
+- a) La clase no puede ser instanciada.
+- b) Java genera un constructor por defecto sin parámetros.
+- c) Se lanza una excepción en tiempo de ejecución.
+
+#### **16.** ¿Qué principio de OOP establece que una subclase puede ser tratada como una instancia de su clase base?
+
+- a) Abstracción.
+- b) Polimorfismo.
+- c) Encapsulación.
+
+#### **17.** ¿Qué es un atributo estático en Java?
+
+- a) Un atributo que pertenece a una instancia de la clase.
+- b) Un atributo que pertenece a la clase y es compartido por todas las
+  instancias.
+- c) Un atributo que solo puede ser accedido desde fuera de la clase.
+
+#### **18.** ¿Cuál es el propósito de un método abstracto en una clase abstracta?
+
+- a) Proporcionar una implementación predeterminada que puede ser sobrescrita.
+- b) Declarar un método que no tiene implementación y debe ser definido en
+  subclases.
+- c) Evitar que la clase sea instanciada directamente.
+
+#### **19.** ¿Cuál es una ventaja clave de la Programación Orientada a Objetos?
+
+- a) Permite escribir código sin necesidad de planificar previamente.
+- b) Facilita la reutilización y el mantenimiento del código.
+- c) Reduce el uso de clases y objetos en un programa.
+
+#### **20.** ¿Qué es el principio de abstracción en OOP?
+
+- a) Ocultar los detalles de implementación y mostrar solo la funcionalidad
+  necesaria.
+- b) Permitir que las subclases sobrescriban los métodos de la clase base.
+- c) Utilizar atributos estáticos y finales para mantener valores constantes.
+
+<hr style="border: 1px solid #136AC7;" />
+
+# **Test: Respuestas**
+
+**1. b) Un paradigma de programación basado en objetos que combinan datos y
+métodos.**  
+_Porque la OOP se centra en la creación de objetos que encapsulan datos y
+comportamientos._
+
+**2. c) Una plantilla o molde para crear objetos.**  
+_Porque una clase define la estructura y comportamiento de los objetos._
+
+**3. b) Una instancia de una clase que combina estado y comportamiento.**  
+_Porque un objeto es una entidad concreta basada en una clase._
+
+**4. a) Agrupar datos y métodos en una clase mientras se ocultan los detalles
+internos.**  
+_Porque la encapsulación se centra en proteger los datos y exponer solo lo
+necesario._
+
+**5. a) Declarando atributos privados y proporcionando getters y setters.**  
+_Porque este enfoque garantiza el control de acceso a los atributos._
+
+**6. b) Un método especial que se llama automáticamente al crear un objeto.**  
+_Porque el constructor inicializa un objeto en el momento de su creación._
+
+**7. c) Herencia.**  
+_Porque la herencia permite que una clase reutilice las características de
+otra._
+
+**8. a) extends.**  
+_Porque en Java, la palabra clave `extends` define una relación de herencia._
+
+**9. c) La capacidad de un método de tomar diferentes formas, según la clase o
+parámetros.**  
+_Porque el polimorfismo permite que un método funcione de manera diferente en
+distintas clases._
+
+**10. b) Un conjunto de métodos que una clase debe implementar.**  
+_Porque las interfaces definen un contrato que las clases deben seguir._
+
+**11. a) Solo son accesibles dentro de la misma clase.**  
+_Porque `private` limita el acceso únicamente al contexto de la clase._
+
+**12. a) La implementación de métodos con el mismo nombre pero diferentes
+parámetros.**  
+_Porque la sobrecarga permite definir métodos similares con distintas firmas._
+
+**13. a) Cambiar el comportamiento de un método heredado en una subclase.**  
+_Porque la sobrescritura redefine un método de la clase base en una subclase._
+
+**14. b) La herencia utiliza `extends`, mientras que la composición utiliza
+objetos como atributos.**  
+_Porque la herencia define relaciones jerárquicas, mientras que la composición
+combina objetos._
+
+**15. b) Java genera un constructor por defecto sin parámetros.**  
+_Porque si no se define un constructor, Java crea uno vacío automáticamente._
+
+**16. b) Polimorfismo.**  
+_Porque este principio permite tratar a un objeto como una instancia de su clase
+base._
+
+**17. b) Un atributo que pertenece a la clase y es compartido por todas las
+instancias.**  
+_Porque los atributos estáticos no son exclusivos de una instancia._
+
+**18. b) Declarar un método que no tiene implementación y debe ser definido en
+subclases.**  
+_Porque un método abstracto define un contrato que las subclases deben cumplir._
+
+**19. b) Facilita la reutilización y el mantenimiento del código.**  
+_Porque la OOP organiza el código para que sea modular y fácil de gestionar._
+
+**20. a) Ocultar los detalles de implementación y mostrar solo la funcionalidad
+necesaria.**  
+_Porque la abstracción se centra en mostrar solo lo relevante para el usuario._
