@@ -20,6 +20,7 @@ preguntas tipos test.
 7. [Arreglos y matrices](/seccion_7_arreglos/src/)
 8. [Funciones / Metodos](/seccion_8_funciones/)
 9. [Clases y Objetos / OOP](/seccion_9_clases_objetos/)
+10. [Avanzados: Clases Abstractas, Interfaces, Excepciones](/seccion_10_avanzados/)
 
 _(Más temas serán agregados a medida que avance)_
 
@@ -33,11 +34,14 @@ realizé cada uno de ellos.
 
 ## 🚀 Cómo Usar Este Repositorio
 
+1. **Crea un fichero nuevo,** abre la terminal en él, copia y ejecuta el
+   siguiente enlace.
+
 1. **Clona el repositorio** para tener una copia local:
    ```bash
    git clone https://github.com/MarioRivVal/my_java_practices.git
    ```
-2. **Explora los temas**: Cada carpeta corresponde a un tema específico y
+1. **Explora los temas**: Cada carpeta corresponde a un tema específico y
    contiene ejercicios, y preguntas a modo de test.!
 
 ## 📈 Progreso
@@ -52,6 +56,7 @@ realizé cada uno de ellos.
 - ✅ Arreglos, Matrices
 - ✅ Funciones
 - ✅ Clases y Objetos (POO)
+- ✅ Clases Abstractas, Interfaces, Excepciones
 - ⬜ Manejo de archivos
 - ⬜ Conexión a base de datos.
 
