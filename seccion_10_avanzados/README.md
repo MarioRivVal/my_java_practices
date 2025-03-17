@@ -45,13 +45,13 @@
 
 **Instrucciones:**
 
-1.  **Crea una clase abstracta llamada `Eje_2_animals.Animal`:**
+1.  **Crea una clase abstracta llamada `Animal`:**
 
     - Declara un método abstracto llamado `emitirSonido()` que no devuelva
       ningún valor (`void`). Este método representará el sonido que hace un
       animal.
 
-2.  **Crea dos clases concretas que hereden de `Eje_2_animals.Animal`:**
+2.  **Crea dos clases concretas que hereden de `Animal`:**
 
     - Crea una clase llamada `Perro`.
     - Crea una clase llamada `Gato`.
